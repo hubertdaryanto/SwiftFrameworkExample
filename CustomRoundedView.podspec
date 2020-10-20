@@ -16,13 +16,13 @@ Pod::Spec.new do |spec|
   spec.author             = { "hubertdaryanto" => "partishion@gmail.com" }
 
   spec.platform     = :ios
-  spec.ios.deployment_target = "13.0"
+  spec.ios.deployment_target = "13.1"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
 
 	# Replace value of source with your github link
-  spec.source       = { :https://github.com/hubertdaryanto/SwiftFrameworkExample.git", :tag => "#{spec.version}" }
+  spec.source       = { :https://github.com/hubertdaryanto/SwiftFrameworkExample.git", :tag => "{spec.version}" }
 
 	# Replace value of source file with your Path
   spec.source_files  = "CustomRoundedFramework/**/*.{swift}"
