@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "CustomRoundedView"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "Updated dependency with TTGsnackbar."
   spec.description  = "Rounded framework is a library to create custom corner for your UIView component."
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "hubertdaryanto" => "partishion@gmail.com" }
 
   spec.platform     = :ios
-  spec.ios.deployment_target = "13.0"
+  spec.ios.deployment_target = "13.1"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
